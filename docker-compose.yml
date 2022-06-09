@@ -1,0 +1,7 @@
+services:
+  torizon-core-builder:
+        container_name: torizon-core-builder   
+        build:
+            context: ./
+            dockerfile: Dockerfile
+    
